@@ -1,0 +1,22 @@
+{
+    "name": "vmartins/nfeparser",
+    "description": "Analisador de notas fiscais eletrônicas em formato XML",
+    "version": "1.0.0",
+    "license": "MIT",
+    "keywords": ["nf", "nfe", "nf-e", "nota fiscal", "parser", "analisador"],
+    "authors": [
+      {
+        "name": "Vitor Martins",
+        "homepage": "https://github.com/vmartins/nfeparser",
+        "role": "Developer"
+      }
+    ],
+    "require": {
+      "php": "^7.4|^8.0"
+    },
+    "autoload": {
+      "psr-4": {
+        "Vmartins\\": ""
+      }
+    }
+  }
