@@ -9,8 +9,9 @@ composer require vmartins/nfeparser
 
 ## Exemplo
 ```php
-use Vmartins\NFeParser;
-$nfe = new NFeParser('nfe.xml');
+<?php
+
+$nfe = new \Vmartins\NFeParser('nfe.xml');
 print_r($nfe->toArray());
 ```
 
